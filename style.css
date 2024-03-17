@@ -1,0 +1,56 @@
+body{
+    background-color:#ddd ;
+}
+.header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: palevioletred;
+    margin: auto;
+    font-size: 35px;
+}
+.intro{
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;} 
+.Bootstrap {width: 60%; background-color: #111;} 
+
+.container {
+    width: 50%; 
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+
+  a{
+    text-decoration: none;
+    color: palevioletred;
+    
+  }
+  .social-media{
+    padding: 1%;
+  }
+
+  .footer {
+    width: 100%;
+    left: 0;
+    margin-top: 2%;
+    background-color: aliceblue;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+     position: unset;
+    }
+    .intro{
+        font-size: small;
+        line-height: 140%;
+    }
+  }
